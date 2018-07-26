@@ -50,7 +50,9 @@ package body Sudoku is
                return True;
             end if;
             sudoku_ar (pos) := 0;
-         end if;
+         else	
+		    return False;
+		 end if;
       end loop;
       return False;
    end placeNumber;

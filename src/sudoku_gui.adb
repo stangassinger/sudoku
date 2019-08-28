@@ -65,9 +65,9 @@ is
    function Bitmap_Buffer return not null Any_Bitmap_Buffer;
    function Bitmap_Buffer return not null Any_Bitmap_Buffer is
    begin
-      if Display.Hidden_Buffer (1).all not in DMA2D_Bitmap_Buffer then
-         raise Program_Error with "We expect a DM2D buffer here";
-      end if;
+     -- if Display.Hidden_Buffer (1).all not in DMA2D_Bitmap_Buffer then
+     --    raise Program_Error with "We expect a DM2D buffer here";
+     -- end if;
 
       return Display.Hidden_Buffer (1);
    end Bitmap_Buffer;

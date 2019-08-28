@@ -11,7 +11,7 @@ project Sudoku_STM32F429Disco extends "Ada_Drivers_Library/examples/shared/commo
 
    package Linker is
       for Default_Switches ("ada") use
-        ("-gc-section", "-Wl,--print-memory-usage");
+        ("-Wl,-gc-section", "-Wl,--print-memory-usage");
    end Linker;
 
 end Sudoku_STM32F429Disco;

@@ -1,6 +1,7 @@
 # sudoku - solver
-#################
-ada bare metal demo; 
+
+ada bare metal demo
+
 sudoku solver using Display on stm32f429_Disco
 
 compiles with GPS 2019

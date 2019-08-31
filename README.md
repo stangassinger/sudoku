@@ -1,4 +1,5 @@
-# sudoku
+# sudoku - solver
+#################
 ada bare metal demo; 
 sudoku solver using Display on stm32f429_Disco
 
@@ -9,8 +10,11 @@ if you have following error when flashing:
 warn usb.c couldn't find any st-link/v2 devices
 
 go to:
+
 /dev/bus/usb
+
 sudo chmod 777 -R *
+
 
 than you should have all rights to flash the board
 

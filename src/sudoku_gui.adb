@@ -8,7 +8,7 @@ with Last_Chance_Handler; pragma Unreferenced (Last_Chance_Handler);
 --  must be somewhere in the closure of the context clauses.
 
 with STM32.Board;         use STM32.Board;
-with STM32.DMA2D_Bitmap;  use STM32.DMA2D_Bitmap;
+--  with STM32.DMA2D_Bitmap;  use STM32.DMA2D_Bitmap;
 with HAL.Bitmap;          use HAL.Bitmap;
 with Ada.Real_Time;       use Ada.Real_Time;
 with HAL.Touch_Panel;     use HAL.Touch_Panel;
